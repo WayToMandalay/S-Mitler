@@ -143,6 +143,7 @@ section {
         color: #fff; }
 
 a[href^=tel], p[href^=tel] {
+  text-decoration: inherit;
   color: inherit; }
 
 .section-overlay::before {
