@@ -142,6 +142,9 @@ section {
       section.inverse .h2 span {
         color: #fff; }
 
+a[href^=tel], p[href^=tel] {
+  color: inherit; }
+
 .section-overlay::before {
   content: "";
   background-color: #3D3C3C;
@@ -1063,10 +1066,7 @@ input, textarea, select {
     margin-bottom: 25px; }
     .footer-addr .footer-phone {
       font-size: 18px;
-      padding-top: 0px;
-      text-decoration: inherit;
-        -webkit-text-decoration-color: inherit;
-                text-decoration-color: inherit; }
+      padding-top: 0px; }
       .footer-addr .footer-phone .fa-mobile-alt {
         top: 7px;
         left: 2px; } }
@@ -1097,8 +1097,6 @@ input, textarea, select {
     font-size: 10px; }
   .header-bottom .bottom-phone {
     text-align: left; }
-    .header-bottom .bottom-phone text-decoration:inherit {
-      color: inherit; }
   .s-gallery p, .s-review p, .s-partners p {
     font-size: 12px; }
   .s-review .quotes {
