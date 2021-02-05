@@ -1063,7 +1063,10 @@ input, textarea, select {
     margin-bottom: 25px; }
     .footer-addr .footer-phone {
       font-size: 18px;
-      padding-top: 0px; }
+      padding-top: 0px;
+      text-decoration: inherit;
+        -webkit-text-decoration-color: inherit;
+                text-decoration-color: inherit; }
       .footer-addr .footer-phone .fa-mobile-alt {
         top: 7px;
         left: 2px; } }
@@ -1094,6 +1097,8 @@ input, textarea, select {
     font-size: 10px; }
   .header-bottom .bottom-phone {
     text-align: left; }
+    .header-bottom .bottom-phone text-decoration:inherit {
+      color: inherit; }
   .s-gallery p, .s-review p, .s-partners p {
     font-size: 12px; }
   .s-review .quotes {
@@ -1116,7 +1121,9 @@ input, textarea, select {
   .welcome strong {
     margin-top: 14px; }
   .header_composition > p {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .section-gallery {
+    display: none; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
